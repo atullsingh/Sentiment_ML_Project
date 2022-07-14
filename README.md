@@ -4,5 +4,7 @@ This is a project about predicting reviews as a Positive or Negative review. Dat
 Resolve the unbalanced dataset by importing more data and selecting equal numbers of negative and positive sentiments.
 ### Selection of model
 Used Linear SVM , Decision Tree and Logistic Regression models and Linear SVM scored highest accuracy.
-### Tuining the SVM using GridSearchCV
-Further increased the accuracy using cross validation technique
+### Further Tune the SVM and RandomForest using GridSearchCV
+It increased rhe accuracy of both model from 83 % to 84 % (SVM) and 79% to 84 % (Random Forest)
+### Checked cross-validation score of each models
+For both model scores were similar.
